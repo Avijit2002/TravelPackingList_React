@@ -135,3 +135,23 @@ input[type="checkbox"] {
   font-weight: 700;
   padding: 3.2rem 0;
 }
+@media screen and (max-width: 910px) {
+  
+  .add-form{
+    padding: 2rem;
+  }
+}
+
+
+@media screen and (max-width: 745px) {
+  .add-form{
+   display: flex;
+   flex-direction: column;
+  }
+  h1{
+    font-size: 6rem;
+  }
+  .list{
+    padding: 2rem;
+  }
+}
